@@ -1,3 +1,7 @@
+# Card Status API
+
+This Node.js API provides card status information based on user phone number or card ID. MongoDB is used as the database to store and retrieve card status data.
+
 ## Prerequisites
 
 Ensure that you have the following installed:
