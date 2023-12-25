@@ -9,7 +9,7 @@ const app = express();
 const dataFolderPath = "./data";
 
 // Connect to MongoDB
-const MONGO_URI = "";
+const MONGO_URI = "mongodb://localhost:27017/cardStatusDB";
 mongoose.connect(MONGO_URI);
 const db = mongoose.connection;
 
